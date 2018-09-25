@@ -1,0 +1,104 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+
+		<title>Login</title>
+	</head>
+	<body>
+		<div class="container">
+		<div class="row main">
+		<div class="panel-heading">
+	        <div class="panel-title text-center">
+	        <h1 class="title">Signup</h1>
+	        <hr/>
+	        </div>
+	        </div> 
+		
+                <div class="main-login main-center">
+		<form class="form-horizontal" method="post" action="#">
+		<div class="form-group">
+		<label for="name" class="cols-md-4 control-label">FirstName</label>
+		<div class="cols-sm-10">
+		<div class="input-group">
+		<input type="text" class="form-control" name="name" id="name"  placeholder="Enter your FirstName" required>
+		</div>
+		</div>
+		</div>
+
+		<div class="form-group">
+		<label for="email" class="cols-sm-2 control-label">Your Email</label>
+		<div class="cols-sm-10">
+		<div class="input-group">
+		<input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email"required/>
+		</div>
+		</div>
+		</div>
+
+		<div class="form-group">
+		<label for="username" class="cols-sm-2 control-label">Username</label>
+		<div class="cols-sm-10">
+		<div class="input-group">
+		<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username" required/>
+		</div>
+                </div>					
+                </div>
+                    
+                <div class="form-group">
+		<label for="age" class="cols-sm-2 control-label">Age</label>
+		<div class="cols-sm-10">
+		<div class="input-group">
+		<input type="text" class="form-control" name="age" id="age"  placeholder="Enter your Age" required/>
+		</div>
+                </div>					
+                </div>
+						
+                <div class="form-group">
+		<label for="password" class="cols-sm-2 control-label">Password</label>
+		<div class="cols-sm-10">
+		<div class="input-group">
+		<input type="password" class="form-control" name="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"  placeholder="Enter your Password"required>
+		</div>
+		</div>
+		</div>
+
+		<div class="form-group">
+		<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							
+                <div class="cols-sm-10">
+		<div class="input-group">
+									
+		<input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirm your Password"required/>
+		</div>
+		</div>
+		</div>
+
+		<div class="form-group ">
+		<button type="button"class="cols-sm-2  class = "button">Register</button>
+		</div>
+                <div class="cols-sm-10">
+		<div class="login-register">
+		</div>
+		</div>
+		</form>
+		</div>
+		</div>
+		</div>
+
+            <%--<script type="text/javascript" src="assets/js/bootstrap.js"></script>--%>
+	</body>
+</html>
